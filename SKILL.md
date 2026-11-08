@@ -18,13 +18,15 @@ This skill targets a single-user AI-agent development workflow.
 5. Compare the frequency and cost of ancillary work with the guarantee it supports. Select a lower-frequency or lighter path when it establishes the same required guarantee.
 6. Compare the affected full path with direct alternatives. Reassess provisional connection or proof-of-concept mechanisms against the recurring production workload before selecting them for that path.
 
-## Support performance decisions with evidence
+## Choose correction or measurement
 
-Estimate material costs from plausible workloads before choosing an implementation. Distinguish expected scaling and inferred bottlenecks from observed measurements.
+Estimate material costs from plausible workloads. Distinguish code-established problems, predicted scaling, and measured performance.
 
-When performance determines the choice or a material improvement is claimed, compare representative inputs and equivalent work, including relevant concurrency, through the actual end-to-end path. Use stage measurements to locate causes, and consider throughput, latency, memory, and contention as applicable. Reuse comparable evidence; keep measurement effort proportional to the decision.
+When code inspection establishes a concrete avoidable cost or defect and its correction follows from settled requirements and design, move directly to correction in the owning implementation workflow. Verify the corrected behavior with focused checks. Use the code finding itself as sufficient justification for that correction.
 
-Describe the measured conditions, remaining uncertainty, and the resource tradeoff behind the selected path. Keep performance work within the current settled requirements and implementation boundary.
+Use measurement to resolve a remaining implementation choice or unknown cause, or to verify a settled quantitative performance guarantee. Compare representative inputs and equivalent work through the affected end-to-end path, including relevant concurrency. Use stage measurements where they help determine the next change; consider throughput, latency, memory, and contention as applicable. Reuse comparable evidence and keep measurement effort proportional to the unresolved question.
+
+Report code-grounded findings and focused verification separately from measured outcomes. Describe the conditions, uncertainty, and resource tradeoff for measurements used in the decision. Keep performance work within the current settled requirements and implementation boundary.
 
 ## Responsibility boundary
 

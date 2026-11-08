@@ -12,7 +12,7 @@ Activate when designing, implementing, refactoring, or reviewing processing whos
 
 ## Responsibility
 
-Trace repeated work, including conversions, validation, logging, and replay; estimate runtime, peak retained-memory growth, and concurrency cost. Correct code-established problems directly; use representative end-to-end measurements for unresolved decisions or settled quantitative guarantees.
+Trace repeated work, including conversions, validation, logging, and replay; estimate runtime, peak retained-memory growth, and concurrency cost. Correct code-established problems directly; use proportionate measurements for unresolved decisions or settled quantitative guarantees.
 
 Data-path directness belongs to [direct-data-flow](https://github.com/supersovaa/direct-data-flow). CI execution belongs to [ci-execution-efficiency](https://github.com/supersovaa/ci-efficiency); costly complete-trial selection belongs to [test-execution-budget](https://github.com/supersovaa/requirement-driven-testing/blob/main/skills/execution/SKILL.md). The relevant planning workflow owns plan dependencies.
 

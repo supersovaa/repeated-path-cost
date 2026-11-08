@@ -22,7 +22,7 @@ This skill targets a single-user AI-agent development workflow.
 
 Estimate material costs from plausible workloads. Distinguish code-established problems, predicted scaling, and measured performance.
 
-When code inspection establishes an actionable defect or avoidable recurring cost and its correction preserves settled behavior and scope, proceed directly to correction in the owning implementation workflow. Verify the corrected behavior with focused checks. Treat the code finding as sufficient evidence to begin correction.
+When code inspection establishes an actionable defect or avoidable recurring cost with a correction consistent with settled requirements and the current implementation boundary, proceed directly to correction in the owning implementation workflow. Verify the corrected behavior with focused checks. Treat the code finding as sufficient evidence to begin correction.
 
 Use measurement to resolve a concrete remaining question: the choice between viable implementations, a cause that code inspection leaves unknown, or compliance with a settled quantitative performance guarantee. Select the narrowest evidence that answers the question. Compare equivalent work under representative conditions for competing implementations; measure relevant stages for unresolved causes; and measure the conditions required by a quantitative guarantee. Include the end-to-end path and concurrency when they affect the conclusion. Reuse comparable evidence and keep measurement effort proportional to the question.
 

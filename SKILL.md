@@ -22,9 +22,9 @@ This skill targets a single-user AI-agent development workflow.
 
 Estimate material costs from plausible workloads. Distinguish code-established problems, predicted scaling, and measured performance.
 
-When code inspection establishes a concrete avoidable cost or defect and its correction follows from settled requirements and design, move directly to correction in the owning implementation workflow. Verify the corrected behavior with focused checks. Use the code finding itself as sufficient justification for that correction.
+When code inspection establishes an actionable defect or avoidable recurring cost and its correction preserves settled behavior and scope, proceed directly to correction in the owning implementation workflow. Verify the corrected behavior with focused checks. Treat the code finding as sufficient evidence to begin correction.
 
-Use measurement to resolve a remaining implementation choice or unknown cause, or to verify a settled quantitative performance guarantee. Compare representative inputs and equivalent work through the affected end-to-end path, including relevant concurrency. Use stage measurements where they help determine the next change; consider throughput, latency, memory, and contention as applicable. Reuse comparable evidence and keep measurement effort proportional to the unresolved question.
+Use measurement for questions that remain after acting on established code findings: choosing between viable implementations, locating an unresolved cause, or verifying a settled quantitative performance guarantee. Compare representative inputs and equivalent work through the affected end-to-end path, including relevant concurrency. Use stage measurements where they help determine the next change; consider throughput, latency, memory, and contention as applicable. Reuse comparable evidence and keep measurement effort proportional to the unresolved question.
 
 Report code-grounded findings and focused verification separately from measured outcomes. Describe the conditions, uncertainty, and resource tradeoff for measurements used in the decision. Keep performance work within the current settled requirements and implementation boundary.
 

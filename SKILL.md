@@ -1,13 +1,11 @@
 ---
 name: repeated-path-cost
-description: Evaluate recurring runtime and resource cost when designing, implementing, refactoring, or reviewing paths repeated by workload size, iteration count, or concurrency.
+description: Assess recurring work and peak memory when designing, implementing, refactoring, or reviewing paths that repeat with data size, iterations, or concurrency.
 ---
 
 # Repeated Path Cost
 
-Use this skill when designing, implementing, refactoring, or reviewing a processing path whose work repeats with input size, iteration count, accumulated state, or concurrent execution.
-
-This skill targets a single-user AI-agent development workflow.
+In a single-user AI-agent workflow, apply this check during design, implementation, refactoring, or review when work repeats with input size, iteration count, accumulated state, or concurrency.
 
 ## Examine the whole repeated path
 

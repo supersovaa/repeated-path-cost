@@ -1,11 +1,11 @@
 ---
 name: repeated-path-cost
-description: Assess recurring work and peak memory when designing, implementing, refactoring, or reviewing paths that repeat with data size, iterations, or concurrency.
+description: Use when designing, implementing, refactoring, or reviewing processing paths. Assess recurring work and peak memory.
 ---
 
 # Repeated Path Cost
 
-In a single-user AI-agent workflow, apply this check during design, implementation, refactoring, or review when work repeats with input size, iteration count, accumulated state, or concurrency.
+In a single-user AI-agent workflow, identify work repeated with input size, iteration count, accumulated state, or concurrency. For those paths, trace the repeated operations before deciding whether correction or measurement is needed.
 
 ## Examine the whole repeated path
 

@@ -8,7 +8,7 @@ Repeated work scales with invocation count, input growth, accumulated state, and
 
 ## When to use
 
-Activate when designing, implementing, refactoring, or reviewing processing whose runtime or memory use grows with repetitions, workload size, or simultaneous workers.
+Activate when designing, implementing, refactoring, or reviewing a processing path. Assess recurring cost where work repeats with input size, iterations, accumulated state, or concurrency.
 
 ## Responsibility
 
